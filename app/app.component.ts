@@ -12,7 +12,9 @@ import { mockData1, mockData2, mockData3 } from './weather-data';
             type="line" 
             [data]="data1"
             [markers]="{ visible: false }"
-            field="TMax" categoryField="Date">
+            field="TMax" 
+            categoryField="Date"
+          >
           </kendo-chart-series-item>
           <!-- Serie 2  -->
           <kendo-chart-title text="Daily Max (&deg;C)"></kendo-chart-title>
@@ -20,7 +22,9 @@ import { mockData1, mockData2, mockData3 } from './weather-data';
             type="line" 
             [data]="data2"
             [markers]="{ visible: false }"
-            field="TMax" categoryField="Date">
+            field="TMax" 
+            categoryField="Date"
+          >
           </kendo-chart-series-item>
           <!-- Serie 3  -->
           <kendo-chart-title text="Daily Max (&deg;C)"></kendo-chart-title>
@@ -28,13 +32,11 @@ import { mockData1, mockData2, mockData3 } from './weather-data';
             type="line" 
             [data]="data3"
             [markers]="{ visible: false }"
-            field="TMax" categoryField="Date">
+            field="TMax" 
+            categoryField="Date"
+          >
           </kendo-chart-series-item>
         </kendo-chart-series>
-        <kendo-chart-category-axis>
-            <kendo-chart-category-axis-item>
-            </kendo-chart-category-axis-item>
-        </kendo-chart-category-axis>
       </kendo-chart>
     `
 })
