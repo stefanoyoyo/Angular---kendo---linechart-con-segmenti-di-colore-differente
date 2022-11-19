@@ -12,3 +12,4 @@
 Un modo per farlo è: 
  • definire il categoryField="Date"
  • creare una diversa serie per ogni segmento che si intende disegnare
+ 
